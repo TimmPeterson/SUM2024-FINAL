@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+body {
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  z-index: 0;
+}
+
+#apply {
+  border-radius: 0px;
+  margin: 0px;
+  width: 20%;
+  height: 30px;
+  border: 0;
+  background-color: #00cf4f;
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+  font-optical-sizing: auto;
+}
+
+#textArea {
+  padding: 10px;
+  z-index: 999999999999999999999999;
+  color: bisque;
+  font-size: 1em;
+  background: #303f3f;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  height: 100vh;
+  width: 300px;
+  white-space: pre;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+  border: 0;
+}
+
+#textArea::-webkit-scrollbar {
+  width: 0 !important
+}
